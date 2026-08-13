@@ -71,10 +71,10 @@ flowchart LR
 
 | Signal | ESP32 GPIO | Note |
 |---|---|---|
-| Servo 1 | GPIO 13 | |
-| Servo 2 | GPIO 12 | ⚠️ boot-strapping pin — see [Troubleshooting](#troubleshooting) if you get random resets |
-| Servo 3 | GPIO 14 | |
-| Servo 4 | GPIO 27 | |
+| Servo 1 | GPIO 22 | |
+| Servo 2 | GPIO 21 | ⚠️ boot-strapping pin — see [Troubleshooting](#troubleshooting) if you get random resets |
+| Servo 3 | GPIO 17 | |
+| Servo 4 | GPIO 16 | |
 | HC-SR04 `TRIG` | GPIO 5 | Direct connection is fine (3.3V read as logic-high) |
 | HC-SR04 `ECHO` | GPIO 18 | **Through the voltage divider below — never direct** |
 
