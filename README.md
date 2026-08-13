@@ -195,10 +195,10 @@ A single ordered path from zero to a calibrated, Firebase-connected robot:
 Toward the "interactive research companion" identity:
 
 - [x] **Step 1 — Firebase Foundation.** ESP32 makes real outgoing HTTPS requests to Firebase.
-- [ ] **Step 2 — Voice-to-Text Chat.** Microphone input on the AI Chat page (Web Speech API), transcripts saved to Firebase.
-- [ ] **Step 3 — Research Sessions.** Named sessions grouping readings/interactions for later review.
-- [ ] **Step 4 — Personality.** LED mood indicators, an interaction counter.
-- [ ] **Step 5 — Calibration & final polish.**
+- [x] **Step 2 — Voice-to-Text Chat.** Microphone input on the AI Chat page (Web Speech API), transcripts saved to Firebase.
+- [x] **Step 3 — Research Sessions.** Named sessions grouping readings/interactions for later review.
+- [x] **Step 4 — Personality.** LED mood indicators, an interaction counter.
+- [x] **Step 5 — Calibration & final polish.**
 
 ## Design Decisions Worth Knowing About
 
