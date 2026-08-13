@@ -63,10 +63,9 @@ flowchart LR
 | Capacitors | ✅ in kit | Smooth the servo power rail — recommended: one ~470–1000µF electrolytic across the external 5V supply, near the servos |
 | Small breadboard | ✅ in kit | Prototyping before any permanent wiring |
 | Arduino Uno | ✅ in kit, **not used** | Its 2KB RAM and lack of Wi-Fi don't add anything the ESP32 doesn't already cover for this build — keep it for a separate project |
-| 1× 1kΩ + 1× 2kΩ resistor | ❌ need to source | **Required** — HC-SR04 `ECHO` voltage divider (protects the ESP32's 3.3V-only GPIO from the sensor's 5V output) |
+| 1× 1kΩ + 1× 2kΩ resistor | ✅ in kit | **Required** — HC-SR04 `ECHO` voltage divider (protects the ESP32's 3.3V-only GPIO from the sensor's 5V output) |
 | External 5V / 2A+ power source | ❌ need to source | Powers the 4 servos — **do not** power them from the ESP32's own 5V pin. A dedicated USB power bank is the simplest safe option. See [Power Requirements](#power-requirements). |
-| **Mechanical chassis / legs** | ❌ **not in kit — you need this** | Something has to physically hold the ESP32, sensor, and 4 servo-driven legs together. Not addressed yet in this project — a 3D-printed frame, laser-cut acrylic frame, or a pre-made "4-servo quadruped" hobby chassis are the usual routes. Flag this early; it's the one item here with real lead time. |
-
+| **Mechanical chassis / legs** |✅ in kit | a 3D-printed body for dog robot.
 ### Pin Map
 
 | Signal | ESP32 GPIO | Note |
